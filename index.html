@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DMA</title>
+    <style>
+      body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="aInput"> </input>
+    <input type="text" id="bInput"> </input>
+    <button id="computeButton">compute gcd</button>
+    <button id="panicButton">test panic</button>
+    <div id="result"></div>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
